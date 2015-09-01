@@ -1,4 +1,4 @@
-* Chapter 1 Assignment
+# Chapter 1 Assignment
 
 My approach for this assignment was largely to follow the guide layed
 out by the Code Rails book.  Everything went smoothly for the most
