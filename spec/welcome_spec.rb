@@ -1,7 +1,4 @@
-require "minitest/spec"
-require "minitest/autorun"
-
-require "welcome"
+require 'test_helper'
 
 describe Welcome do
   it "has a message" do
