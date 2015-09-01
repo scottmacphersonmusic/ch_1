@@ -8,8 +8,8 @@ class FeatureSpec < MiniTest::Spec
     Capybara::Poltergeist::Driver.new(
       config, { js_errors: false,
                 timeout: 1000,
-                phantomjs_options: ['--ignore-ssl-errors=yes',
-                                    '--ssl-protocol=any'] })
+                phantomjs_options: ["--ignore-ssl-errors=yes",
+                                    "--ssl-protocol=any"] })
     # config hash from 'http://qiita.com/meganii/items/044c606f34918d866a61'
   end
   Capybara.default_driver = :poltergeist
